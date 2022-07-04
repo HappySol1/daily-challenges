@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daily-challenges/static/css/main.f688cd04.css",
-    "main.js": "/daily-challenges/static/js/main.9a96a2c9.js",
+    "main.js": "/daily-challenges/static/js/main.bb6d5462.js",
     "static/media/paper.png": "/daily-challenges/static/media/paper.94729bef77b0d75ee3f7.png",
     "static/media/podcast-cover.png": "/daily-challenges/static/media/podcast-cover.f0dabcd9d66fcc4b54c7.png",
     "static/media/scissors.png": "/daily-challenges/static/media/scissors.7e402b949f6595c2b156.png",
@@ -28,10 +28,10 @@
     "static/media/you-win.svg": "/daily-challenges/static/media/you-win.5b882fb59463ae565911.svg",
     "static/media/computer-wins.svg": "/daily-challenges/static/media/computer-wins.759e0df6787c8425de83.svg",
     "main.f688cd04.css.map": "/daily-challenges/static/css/main.f688cd04.css.map",
-    "main.9a96a2c9.js.map": "/daily-challenges/static/js/main.9a96a2c9.js.map"
+    "main.bb6d5462.js.map": "/daily-challenges/static/js/main.bb6d5462.js.map"
   },
   "entrypoints": [
     "static/css/main.f688cd04.css",
-    "static/js/main.9a96a2c9.js"
+    "static/js/main.bb6d5462.js"
   ]
 }
