@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+body {
+  margin: 0;
+}
+
+.rpsW {
+  /* Winner Page */
+}
+
+.rpsW .topwrap {
+  min-width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.rpsW h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.rpsW ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 75px;
+}
+
+.rpsW li.pick-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background: none;
+  border: 2px solid black;
+  font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+  height: 355px;
+  width: 325px;
+  font-size: 1.25rem;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.rpsW li.pick-one:hover {
+  border: 10px solid #FFB800;
+}
+
+.rpsW li.pick-one img {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.rpsW .winner.you-win {
+  background: url("./images/you-win.svg") left top no-repeat;
+  background-size: auto 100%;
+}
+
+.rpsW .winner.computer-wins {
+  background: url("./images/computer-wins.svg") right top no-repeat;
+  background-size: auto 100%;
+}
+
+.rpsW h1.you-win, .rpsW h1.computer-wins, .rpsW h1.draw {
+  visibility: hidden;
+}
+
+.rpsW .computer-wins h1.computer-wins,
+.rpsW .you-win h1.you-win {
+  visibility: visible;
+}
+
+.rpsW .draw h1.draw {
+  visibility: visible;
+}
+
+.rpsW h1.draw {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.rpsW .winner .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 200px;
+  position: relative;
+}
+
+.rpsW .winner img {
+  mix-blend-mode: multiply;
+}
+
+.rpsW .computer-pick img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.rpsW .play-again {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+  border: 2px solid black;
+  background: none;
+  padding: 15px 85px;
+  cursor: pointer;
+}
+
+.rpsW .play-again:hover {
+  background: black;
+  color: white;
+}

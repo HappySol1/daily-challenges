@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap');
+
+.calendarW {
+  margin: 0;
+  padding: 0;
+  // min-width: 100vw;
+  min-height: 100vh;
+  background: #FBFBFB;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 2rem;
+
+
+  .wrapper {
+    margin-top: 2%;
+    display: grid; 
+    grid-template-columns: repeat(7, minmax(60px, 1fr));
+    max-width: 660px;
+    grid-gap: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.3128px 39.3176px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    padding: 75px 100px;
+  }
+
+  img{
+    cursor: pointer;
+  }
+
+  div {
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .currentData {
+    grid-column: span 5;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    line-height: 32px;
+    display: block;
+    .year{
+      display: block;
+      font-size: 2.5rem;
+      // font-weight:600;
+      margin-bottom: 20px;
+    }
+    .month{
+      display: block;
+      font-size: 2rem;
+      // letter-spacing: 1.5px;
+      // font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+
+  .day-of-week {
+    font-weight: bold;
+  }
+
+  .today {
+    background: #ffd200;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+
+  .notCurrMonth{
+    color:gray
+
+  }
+}

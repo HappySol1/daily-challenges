@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+  margin: 0;
+}
+.youtubeW {
+  background-color: black;
+  // min-width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+
+
+.wrapper {
+  display: grid; 
+  margin: 0 200px;
+  grid-template-areas: "header header"
+    "feature aside";
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 50px;
+  grid-template-rows: 120px 1fr;
+  max-height: 100vh;
+}
+
+header {
+  padding: 35px 0 45px;
+  grid-area: header;
+  display: flex;
+  width: 100%;
+  .inp{
+    width: 60%;
+    display: flex;
+    margin-left: 10%;
+    input{
+      width: 80%;
+      height: 100%;
+      margin: 0;
+      box-sizing: border-box;
+      padding: 2px 15px;
+      color:#fff;
+      background-color: #121212;
+      border: none;
+      &:active,
+        &:hover,
+        &:focus {
+          outline: 0;
+          outline-offset: 0;
+        }
+    }
+    button{
+      width: 20%;
+      margin: 0;
+      // background-color: #363636;
+      img{
+        width: 24px;
+        height: 24px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.feature {
+  grid-area: feature;
+  height: 100%;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+      width: 0;
+    }
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem; 
+  line-height: 1.5;
+}
+
+aside {
+  grid-area: aside;
+  height: 100%;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+      width: 0;
+    }
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside li {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: top;
+  gap: 15px;
+  .videoinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p{
+      margin: 0;
+      font-size: 15px;
+      color:gray
+    }
+  }
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.loadMore{
+    display: block;
+    margin: 0 auto;
+    margin-bottom:20px;
+    color:#2596be ;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+}

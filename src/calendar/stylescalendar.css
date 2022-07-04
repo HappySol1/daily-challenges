@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap");
+.calendarW {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #FBFBFB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+.calendarW .wrapper {
+  margin-top: 2%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(60px, 1fr))[7];
+      grid-template-columns: repeat(7, minmax(60px, 1fr));
+  max-width: 660px;
+  grid-gap: 30px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2.3128px 39.3176px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2.3128px 39.3176px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  padding: 75px 100px;
+}
+
+.calendarW img {
+  cursor: pointer;
+}
+
+.calendarW div {
+  text-align: center;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calendarW .currentData {
+  grid-column: span 5;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  line-height: 32px;
+  display: block;
+}
+
+.calendarW .currentData .year {
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.calendarW .currentData .month {
+  display: block;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.calendarW .day-of-week {
+  font-weight: bold;
+}
+
+.calendarW .today {
+  background: #ffd200;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.calendarW .notCurrMonth {
+  color: gray;
+}

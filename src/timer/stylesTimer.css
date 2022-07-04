@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@font-face {
+  font-family: "bebas";
+  src: url("./fonts/bebasneue-book-webfont.woff") format("woff"), url("./fonts/bebasneue-book-webfont.woff2") format("woff2");
+}
+
+.timerW {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2b2a30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  /* min-width: 100vw; */
+  padding: 0;
+  /* outer glow */
+  /* inner circle */
+  /* actual time */
+}
+
+.timerW .wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-box-shadow: -5px 14px 44px #000000, 5px -16px 50px rgba(255, 255, 255, 0.15);
+          box-shadow: -5px 14px 44px #000000, 5px -16px 50px rgba(255, 255, 255, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 518px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 518px;
+}
+
+.timerW .ring {
+  position: absolute;
+  left: 0;
+  stroke: #09a65a;
+  top: 0;
+  z-index: 1;
+}
+
+.timerW .ring.ending circle {
+  stroke: #900a0a;
+}
+
+.timerW .timer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: radial-gradient(71.4% 71.4% at 51.7% 28.6%, #3a393f 0%, #17171a 100%);
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 114px rgba(0, 0, 0, 0.45);
+          box-shadow: inset 0px 0px 114px rgba(0, 0, 0, 0.45);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 500px;
+  z-index: 2;
+}
+
+.timerW .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "bebas";
+  font-size: 196px;
+  margin: 30px auto;
+  position: relative;
+  top: 30px;
+}
+
+.timerW input[type="text"] {
+  border: 0;
+  border-bottom: 1px dashed white;
+  background: none;
+  color: white;
+  font-family: "bebas";
+  font-size: 196px;
+  height: 170px;
+  width: 160px;
+  text-align: center;
+  outline: none;
+}
+
+.timerW input[type="text"]:disabled {
+  border-bottom: none;
+}
+
+.timerW .start {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 10px;
+  line-height: 20px;
+  background: none;
+  color: white;
+  opacity: 0.5;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.timerW .start:hover {
+  opacity: 1;
+}
+
+.timerW .settings {
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.timerW .settings:hover {
+  opacity: 1;
+}

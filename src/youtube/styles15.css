@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+.youtubeW {
+  background-color: black;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.youtubeW .wrapper {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 200px;
+      grid-template-areas: "header header" "feature aside";
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  grid-column-gap: 50px;
+  -ms-grid-rows: 120px 1fr;
+      grid-template-rows: 120px 1fr;
+  max-height: 100vh;
+}
+
+.youtubeW header {
+  padding: 35px 0 45px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.youtubeW header .inp {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+}
+
+.youtubeW header .inp input {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2px 15px;
+  color: #fff;
+  background-color: #121212;
+  border: none;
+}
+
+.youtubeW header .inp input:active, .youtubeW header .inp input:hover, .youtubeW header .inp input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.youtubeW header .inp button {
+  width: 20%;
+  margin: 0;
+}
+
+.youtubeW header .inp button img {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.youtubeW .feature {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: feature;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.youtubeW .feature::-webkit-scrollbar {
+  width: 0;
+}
+
+.youtubeW h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.youtubeW p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.youtubeW aside {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: aside;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.youtubeW aside::-webkit-scrollbar {
+  width: 0;
+}
+
+.youtubeW aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.youtubeW aside li {
+  margin-bottom: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  gap: 15px;
+}
+
+.youtubeW aside li .videoinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.youtubeW aside li .videoinfo p {
+  margin: 0;
+  font-size: 15px;
+  color: gray;
+}
+
+.youtubeW h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.youtubeW .loadMore {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #2596be;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+.sliderW {
+  background: #262529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
+  /* slider handle */
+  /* progress (before knob) within Firefox */
+}
+
+.sliderW .wrapper {
+  background: #262529;
+  -webkit-box-shadow: 0px 0px 120px #000000;
+          box-shadow: 0px 0px 120px #000000;
+  border-radius: 20px;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.sliderW .amount {
+  color: #ffc700;
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+.sliderW .dollar-sign {
+  font-size: 5.5rem;
+}
+
+.sliderW .inputWrap {
+  position: relative;
+  margin: 70px 0;
+}
+
+.sliderW .marks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 50px);
+  margin-left: 25px;
+}
+
+.sliderW .marks .singleMark {
+  content: "";
+  width: 3px;
+  height: 14px;
+  position: absolute;
+  background-color: #262529;
+  top: 2px;
+  z-index: 2;
+}
+
+.sliderW input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  border-radius: 10px;
+  width: 700px;
+  height: 14px;
+  background: #4d4c53;
+  outline: none;
+  margin: 0;
+}
+
+.sliderW input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  background: #ea346f;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: 15px solid rgba(234, 52, 111, 0.2);
+  z-index: 10;
+  position: relative;
+}
+
+.sliderW input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  border: none;
+  /* firefox needs this */
+  width: 50px;
+  height: 50px;
+  background: #ea346f;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: 15px solid rgba(234, 52, 111, 0.2);
+}
+
+.sliderW input[type="range"]::-moz-range-progress {
+  background: #ea346f;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 14px;
+}
+
+.sliderW button {
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  background: #333139;
+  border-radius: 100px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.sliderW button:hover {
+  background: white;
+  color: black;
+}
