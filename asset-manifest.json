@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/%20//happysol1.github.io/daily-challenges/static/css/main.67284c7e.css",
+    "main.js": "/%20//happysol1.github.io/daily-challenges/static/js/main.2d4d5117.js",
+    "static/media/paper.png": "/%20//happysol1.github.io/daily-challenges/static/media/paper.94729bef77b0d75ee3f7.png",
+    "static/media/podcast-cover.png": "/%20//happysol1.github.io/daily-challenges/static/media/podcast-cover.f0dabcd9d66fcc4b54c7.png",
+    "static/media/scissors.png": "/%20//happysol1.github.io/daily-challenges/static/media/scissors.7e402b949f6595c2b156.png",
+    "static/media/rock.png": "/%20//happysol1.github.io/daily-challenges/static/media/rock.3823c85375be78f51a2c.png",
+    "static/media/stormy.svg": "/%20//happysol1.github.io/daily-challenges/static/media/stormy.2df6daeab3f459c83a69262abbe03e3e.svg",
+    "static/media/partly-cloudy.svg": "/%20//happysol1.github.io/daily-challenges/static/media/partly-cloudy.ad9764f1959cbdb00e89f399c97c45d4.svg",
+    "static/media/sunny.svg": "/%20//happysol1.github.io/daily-challenges/static/media/sunny.4d672b2a174aeda8affb125f20dc374f.svg",
+    "static/media/cloudy.svg": "/%20//happysol1.github.io/daily-challenges/static/media/cloudy.97141b2c267d9cd1d4daff2780038bf5.svg",
+    "static/media/rainy.svg": "/%20//happysol1.github.io/daily-challenges/static/media/rainy.719efb3fbdab571a4224fc5810b2d6ec.svg",
+    "static/media/bebasneue-book-webfont.woff": "/%20//happysol1.github.io/daily-challenges/static/media/bebasneue-book-webfont.ef7181612dcffaf529b4.woff",
+    "static/media/snowy.svg": "/%20//happysol1.github.io/daily-challenges/static/media/snowy.cf0c4292d8b06f26ba3a80b429b3e7f4.svg",
+    "static/media/bebasneue-book-webfont.woff2": "/%20//happysol1.github.io/daily-challenges/static/media/bebasneue-book-webfont.d0dafcc2eb3e497f02fd.woff2",
+    "static/media/people.svg": "/%20//happysol1.github.io/daily-challenges/static/media/people.4622733a12f64bf28606.svg",
+    "static/media/bg__left.svg": "/%20//happysol1.github.io/daily-challenges/static/media/bg__left.e39c50398534317abe5b.svg",
+    "static/media/bg__btm-right.svg": "/%20//happysol1.github.io/daily-challenges/static/media/bg__btm-right.658476ea74879fbd2ad8.svg",
+    "static/media/bg__top-right.svg": "/%20//happysol1.github.io/daily-challenges/static/media/bg__top-right.b437e12ee83e8408af7e.svg",
+    "static/media/dollar.svg": "/%20//happysol1.github.io/daily-challenges/static/media/dollar.1e98fb67566fc94bd7ae.svg",
+    "index.html": "/%20//happysol1.github.io/daily-challenges/index.html",
+    "static/media/search.svg": "/%20//happysol1.github.io/daily-challenges/static/media/search.56982c1a4d1ef20556e024945d6badc1.svg",
+    "static/media/checkbox--checked.svg": "/%20//happysol1.github.io/daily-challenges/static/media/checkbox--checked.818a53f6d1ea25708f84.svg",
+    "static/media/next.svg": "/%20//happysol1.github.io/daily-challenges/static/media/next.5a24d29cf6a073b5caefd393498e3d65.svg",
+    "static/media/previous.svg": "/%20//happysol1.github.io/daily-challenges/static/media/previous.1c5ed378f9dbba08aa8d64ffd92b5c7e.svg",
+    "static/media/checkbox--unchecked.svg": "/%20//happysol1.github.io/daily-challenges/static/media/checkbox--unchecked.572e839fc51316cb715a.svg",
+    "static/media/you-win.svg": "/%20//happysol1.github.io/daily-challenges/static/media/you-win.5b882fb59463ae565911.svg",
+    "static/media/computer-wins.svg": "/%20//happysol1.github.io/daily-challenges/static/media/computer-wins.759e0df6787c8425de83.svg",
+    "main.67284c7e.css.map": "/%20//happysol1.github.io/daily-challenges/static/css/main.67284c7e.css.map",
+    "main.2d4d5117.js.map": "/%20//happysol1.github.io/daily-challenges/static/js/main.2d4d5117.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67284c7e.css",
+    "static/js/main.2d4d5117.js"
+  ]
+}
