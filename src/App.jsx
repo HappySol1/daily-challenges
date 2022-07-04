@@ -2,7 +2,7 @@ import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import "./MainpageStyles.css";
 
-import Todo from "./todo/todo";
+import OldTodo from "./todo/todo";
 import Timer from "./timer/timer";
 import Menu from "./menu/menu";
 import Keyboard from "./keyboard/keyboard";
@@ -26,7 +26,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MyProjects />} />
-          <Route path="todo" element={<Todo />} />
+          <Route path="oldtodo" element={<OldTodo />} />
           <Route path="timer" element={<Timer />} />
           <Route path="menu" element={<Menu />} />
           <Route path="keyboard" element={<Keyboard />} />
@@ -52,7 +52,7 @@ export default function App() {
 function Layout() {
   return (
     <>
-      <Link to="/" className='linktomainpage'>
+      <Link to="/daily-challenges/" className='linktomainpage'>
         <img src="arrow_back.svg" alt="" />
       </Link>
       <div className="page">
@@ -69,6 +69,38 @@ function MyProjects() {
       <div className="underline"></div>
     </div>
     <div className="project-list">
+      <Link to="/sortAlgorithms" className='project-item'>
+        <div className="project-preview">
+          <img src='./previews/sort.png' alt="" />
+        </div>
+        <div className="project-title">
+          <h5>Алгоритмы сортировки</h5>
+        </div>
+      </Link>
+      <Link to="/ToDo" className='project-item'>
+        <div className="project-preview">
+          <img src='./previews/dragableTodo.png' alt="" />
+        </div>
+        <div className="project-title">
+          <h5>ToDo Draggable</h5>
+        </div>
+      </Link>
+      <Link to="/reddit_search" className='project-item'>
+        <div className="project-preview">
+          <img src='./previews/finddit.png' alt="" />
+        </div>
+        <div className="project-title">
+          <h5>Поиск Reddit</h5>
+        </div>
+      </Link>
+      <Link to="/database" className='project-item'>
+        <div className="project-preview">
+          <img src='./previews/database.png' alt="" />
+        </div>
+        <div className="project-title">
+          <h5>База пользователей</h5>
+        </div>
+      </Link>
       <Link to="/colorGen" className='project-item'>
         <div className="project-preview">
           <img src='./previews/colorGen.png' alt="" />
@@ -173,9 +205,9 @@ function MyProjects() {
           <h5>Таймер</h5>
         </div>
       </Link>
-      <Link to="/timer" className='project-item'>
+      <Link to="/oldtodo" className='project-item'>
         <div className="project-preview">
-          <img src='./previews/Todo.png' alt="" />
+          <img src='./previews/todo.png' alt="" />
         </div>
         <div className="project-title">
           <h5>ToDo</h5>
